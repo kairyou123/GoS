@@ -811,7 +811,7 @@ end
 class "Morgana"
 
 function Morgana:__init()
-	Q = {ready = false, range = 1175, radius = 65, speed = 1200, delay = 0.2, type = "line",col = {"minion","champion"}}
+	Q = {ready = false, range = 900, radius = 65, speed = 1200, delay = 0.2, type = "line",col = {"minion","champion"}}
 	W = {ready = false, range = 900,radius = 225, speed = 2200, delay = 0.5, type = "circular" }
 	E = {ready = false, range = 750 }
 	R = {ready = false,range = 600}
